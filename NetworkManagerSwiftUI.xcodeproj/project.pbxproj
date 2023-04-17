@@ -11,6 +11,7 @@
 		4AEC5C5529ED5A1300B5209A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEC5C5429ED5A1300B5209A /* ContentView.swift */; };
 		4AEC5C5729ED5A1400B5209A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AEC5C5629ED5A1400B5209A /* Assets.xcassets */; };
 		4AEC5C5B29ED5A1400B5209A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AEC5C5A29ED5A1400B5209A /* Preview Assets.xcassets */; };
+		4AEC5C6229ED5ABC00B5209A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEC5C6129ED5ABC00B5209A /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		4AEC5C5629ED5A1400B5209A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AEC5C5829ED5A1400B5209A /* NetworkManagerSwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NetworkManagerSwiftUI.entitlements; sourceTree = "<group>"; };
 		4AEC5C5A29ED5A1400B5209A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4AEC5C6129ED5ABC00B5209A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		4AEC5C5129ED5A1300B5209A /* NetworkManagerSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				4AEC5C6129ED5ABC00B5209A /* NetworkManager.swift */,
 				4AEC5C5229ED5A1300B5209A /* NetworkManagerSwiftUIApp.swift */,
 				4AEC5C5429ED5A1300B5209A /* ContentView.swift */,
 				4AEC5C5629ED5A1400B5209A /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AEC5C6229ED5ABC00B5209A /* NetworkManager.swift in Sources */,
 				4AEC5C5529ED5A1300B5209A /* ContentView.swift in Sources */,
 				4AEC5C5329ED5A1300B5209A /* NetworkManagerSwiftUIApp.swift in Sources */,
 			);
